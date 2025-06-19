@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.experience-section {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 40px;
+  background-color: #080808;
+  border-left: 4px solid #ee6b14;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  font-size: 16px;
+  color: #ffffff;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+}
+
+.experience-section h2 {
+  color: #7b68ee;
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-family: 'Outfit', sans-serif;
+  text-align: center;
+}
+
+.exp-card {
+  background-color: #fafafa;
+  border-left: 4px solid #6c63ff;
+  padding: 20px 25px;
+  margin-left: 30px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+  position: relative;
+  color: #080808;
+}
+
+.exp-card:hover {
+  transform: translateY(-6px);
+}
+
+.exp-download-btn {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 8px 12px;
+  background-color: #6c63ff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.exp-download-btn:hover {
+  background-color: #5146e1;
+}
+
+.exp-card::before {
+  content: '';
+  position: absolute;
+  left: -38px;
+  top: 18px;
+  width: 14px;
+  height: 14px;
+  background-color: #6c63ff;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 0 0 3px #d6d0ff;
+}
+
+.exp-card h3 {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.company {
+  color: #6c63ff;
+  font-weight: normal;
+}
+
+.exp-time {
+  font-size: 14px;
+  color: #666;
+  display: block;
+  margin: 8px 0 12px;
+}
+
+.exp-points {
+  padding-left: 20px;
+  margin-top: 5px;
+}
+
+.exp-points li {
+  margin-bottom: 6px;
+  line-height: 1.5;
+}
+
+/* 🔽 Mobile Responsive Adjustments */
+@media (max-width: 600px) {
+  .experience-section {
+    padding: 24px;
+    margin: 30px 16px;
+    font-size: 15px;
+  }
+
+  .experience-section h2 {
+    font-size: 22px;
+  }
+
+  .exp-card {
+    margin-left: 10px;
+    padding: 16px 18px;
+  }
+
+  .exp-card::before {
+    left: -25px;
+    top: 16px;
+    width: 12px;
+    height: 12px;
+  }
+
+  .exp-card h3 {
+    font-size: 18px;
+  }
+
+  .exp-download-btn {
+    font-size: 13px;
+    padding: 6px 10px;
+  }
+
+  .exp-time {
+    font-size: 13px;
+  }
+}

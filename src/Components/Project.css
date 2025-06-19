@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+.projects-container {
+ border-radius: 8px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+  max-width: 900px;
+  margin: 60px auto;
+  border-left: 6px solid rgb(77, 77, 245);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  font-size: 16px;
+  color: #ffffff;
+    background: #000000dd;
+}
+
+.projects-title {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: rgb(77, 77, 245);
+  text-align: center;
+    font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background-color: #eef2ff; /* Soft lavender-blue */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s;
+    font-family: 'Poppins', sans-serif;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.project-card p {
+  color: #555;
+  font-size: 14.5px;
+  margin: 10px 0;
+}
+
+.project-card .tech {
+  display: block;
+  font-size: 13px;
+  color: #007;
+  margin-bottom: 10px;
+}
+
+.project-card a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #007;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+
+.project-card a:hover {
+  background-color: rgb(9, 9, 160);
+}

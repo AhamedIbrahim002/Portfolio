@@ -1,0 +1,46 @@
+.site-footer {
+  text-align: center;
+  margin-top: 60px;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  padding: 20px 16px;
+
+}
+
+.footer-icons {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.footer-icons a {
+  color: #ffffff;
+  font-size: 22px;
+  transition: color 0.3s ease;
+}
+
+.footer-icons a:hover {
+  color: #ffd103;
+}
+
+/* 🔽 Mobile Responsive Styles */
+@media (max-width: 600px) {
+  .site-footer {
+    font-size: 13px;
+    margin-top: 40px;
+    padding: 16px 12px;
+  }
+
+  .footer-icons {
+    gap: 16px;
+    margin-bottom: 12px;
+  }
+
+  .footer-icons a {
+    font-size: 24px;
+    margin: 0 6px;
+  }
+}
