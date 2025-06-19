@@ -1,7 +1,17 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# My React Portfolio Website
 
+A responsive portfolio website built using:
+
+- ⚛️ React.js
+- 🎨 CSS 
+- 🛠️ JavaScript
+- 🚀 Deployed on Netlify
+
+## Live Site
+👉 [https://legendary-daifuku-e582cb.netlify.app/]((https://legendary-daifuku-e582cb.netlify.app/))
 ## Available Scripts
 
 In the project directory, you can run:
